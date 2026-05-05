@@ -1,5 +1,5 @@
 [versions]
-booth = "3.2.3"
+booth = "3.4.3"
 
 [libraries]
 booth = { module = "io.ktor:ktor-client-core", version.ref = "booth" }
